@@ -29,3 +29,4 @@ def rental_car_cost(days):
 def trip_cost(city, days, spending_money):
     notreal = rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city) + spending_money
     return notreal
+
